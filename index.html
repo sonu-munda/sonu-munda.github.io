@@ -1,42 +1,77 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>PORTFOLIO</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="./libs/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <div class="container">
+      <h1>Hi, I'm Sonu 👋</h1>
+      <p>Web & Mobile Developer | Generative AI Enthusiast</p>
+      <img src="./IMG_20220613_175736_368_1.jpg" alt="Profile Photo" class="profile-photo">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <u><b><h1 style = "text-align:center;"> PORTFOLIO </h1></b></u>
-        <b>Name</b>         : Sonu Mundaa<br>
-       <b>Date of Birth</b> : 12-05-1999 <br>
-       <b>Birth Place</b>   : Ranchi (Jharkhand)<br>
-       <b>Email</b>: <a href="mailto:sonumunda333@gmail.com">sonumunda333@gmail.com</a><br>
-       <b>Phone</b> :<a href="tel:6203537706"> 6203537706</a><br>
-       <img src="IMG_20220613_175736_368_1.jpg" style="text-align:center;" height=30% ; width=30%; ">
-       
-       
-       <u><h2 style = " background-color: aquamarine; text-align: center;">EDUCATION QUALIFICATION</h2></u></p>
-        
-            <b>Board</b>        : MMK HIGH SCHOOL<br>
-            <b>Intermediate</b> : ST. XAVIER'S COLLEGE RANCHI<br>
-            <b>Graduation</b>   : JHARKHAND RAKSHA SHAKTI UNIVERSITY<br>
+  <main>
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>I am a skilled developer with experience in HTML, CSS, JavaScript, React, and Flutter. Currently, I'm exploring Generative AI to enhance my development projects.</p>
+    </section>
 
-    
-        <u><b><h3 style= "background-color: aquamarine; text-align: center;"> SKILLS</b></u></h3>
-        
-            <b>Language Known</b>       : HINDI , ENGLISH<br>
-            <b>Typing Speed </b>        : HINDI 30 WPM , ENGLISH 35 WPM<br>
-            <b>Speaking Language </b>   : HINDI , ENGLISH , BENGALI
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <a href="https://github.com/sonu-munda/crypto-book" target="_blank" class="project">
+        <h3>Crypto-Book</h3>
+        <p>A tool to track cryptocurrency values in real-time against the USD.</p>
+      </a>
+      <a href="https://github.com/sonu-munda/rememorise" target="_blank" class="project">
+        <h3>Memorise App</h3>
+        <p>A to-do app with a Node.js backend and Flutter UI to help users manage tasks efficiently.</p>
+      </a>
+      <a href="hhttps://github.com/sonu-munda/react-ecom" target="_blank" class="project">
+        <h3>React Ecommmerce Web App</h3>
+        <p>React eCommerce is a responsive, full-featured online store with product listings, cart functionality, and user authentication. Built with React, Redux, and Styled Components for a seamless shopping experience.</p>
+      </a>
+    </section>
 
+    <section id="services" class="container">
+      <h2>Services</h2>
+      <ul>
+        <li>Web Development: HTML, CSS, JavaScript, React</li>
+        <li>Mobile App Development: Flutter</li>
+        <li>Generative AI Solutions</li>
+        <li>Project Consultation</li>
+      </ul>
+    </section>
 
-            <u><b><h3 style = "background-color: aquamarine; text-align: center;"> COMPUTER SKILLS</h3></b></u>
-            <b>HTML</b> <br>
-            <b>CSS</b><br>
-            <b>JAVASCRIPT</b><br>
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>Let's connect! Reach me on:</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:itssonuinfo@gmail.com">itssonuinfo@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+916203537706">+91 62035 37706</a></p>
+      </div>
+      <a href="https://github.com/sonu-munda" class="social-link">GitHub</a>
+      <a href="https://www.linkedin.com/in/sonu-munda/" class="social-link">LinkedIn</a>
+    </section>
+  </main>
 
-            <u><b><h4 style = "background-color: aquamarine; text-align: center;"> HOBBY</h4></b></u>
-            <b>RIDING</b><br>
-                <b>WATCHING MOVIE</b><br>
-                  <b>  PLAYING BASEBALL</b>
+  <footer>
+    <p>© 2024 Sonu Munda. All rights reserved.</p>
+  </footer>
 
-
-                </body>
+  <script src="script.js"></script>
+</body>
 </html>
